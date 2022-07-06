@@ -1,0 +1,235 @@
+main {
+    background-color: #1c1b1e;
+}
+
+#home-container {
+    display: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 747px;
+    max-height: auto;
+    max-width: 100%;
+}
+
+.home-child{
+    width: auto;
+    flex: 1;
+}
+
+.home-child:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    padding-top: 5%;
+    padding-left: 9%;
+    padding-bottom: 7%;
+}
+
+#home-title {
+    width: auto;
+    margin-bottom: 25px;
+}
+
+#home-description {
+    width: auto;
+    margin-bottom: 25px;
+}
+
+.home-child:last-child {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    align-self: center;
+}
+
+#knight1 {
+    width: 333px;
+    height: 577px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#community-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: auto;
+    min-height: 717px;
+    max-width: auto;
+}
+
+.community-child {
+    flex: 1;
+    align-self: center;
+}
+
+.community-child:first-child {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 7%;
+}
+
+.community-child:last-child {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
+}
+
+#community-title {
+    width: auto;
+    margin-bottom: 25px;
+}
+
+#community-description {
+    width: auto;
+    margin-bottom: 25px;
+}
+
+#knight2 {
+    margin: auto;
+    width: auto;
+    height: 671px;
+}
+
+#about-us-container {
+    display: none;
+    min-height: 1997px;
+    max-height: auto;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.team-cherry-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.team-cherry-child {
+    flex: 1;
+    align-self: center;
+}
+
+.team-cherry-child:first-child {
+    padding: 5% 10% 5% 5%;
+}
+
+.team-cherry-child:last-child {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 5%;
+}
+
+#team-cherry-title {
+    width: auto;
+    margin-bottom: 25px;
+}
+
+#team-cherry-description {
+    width: auto;
+    margin-bottom: 30px;
+}
+
+#team-cherry-img {
+    width: auto;
+    height: 353px;
+}
+
+.lead-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.lead-child {
+    margin: auto;
+    flex: 1;
+}
+
+.lead-child:first-child {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    padding: 5% 5% 0 10%;
+}
+
+.lead-child:last-child {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding: 8%;
+}
+
+#lead-title {
+    width: auto;
+    margin-bottom: 25px;
+}
+
+#lead-description {
+    width: auto;
+    margin-bottom: 30px;
+}
+
+#lead-img {
+    padding-top: 15%;
+}
+
+#lead-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.mentoring-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+
+.mentoring-child {
+    margin: 0 5% 8% 5%;
+}
+
+.mentoring-img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.mentoring-name {
+    font-family: 'Poppins';
+    font-size: 1.125rem;
+    color: #FFFFFF;
+    text-align: center;
+    transition: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.mentoring-description {
+    font-family: 'Poppins';
+    font-size: 0.938;
+    color: #FFFFFF;
+    text-align: center;
+    transition: 0.2s;
+    transition-timing-function: ease-in-out;
+}

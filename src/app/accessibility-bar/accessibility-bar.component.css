@@ -1,0 +1,21 @@
+.accessibility-bar-container {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #000000;
+}
+
+.accessibility-bar-container div {
+    display: inline-flex;
+    margin: 10px 0 10px 0;
+}
+
+#increase-size, #default-size {
+    margin-right: 20px;
+}
+
+#decrease-size {
+    margin-right: 50px;
+}
