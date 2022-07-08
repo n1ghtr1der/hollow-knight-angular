@@ -1,0 +1,47 @@
+#community-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: auto;
+    min-height: 717px;
+    max-width: auto;
+}
+
+.community-child {
+    flex: 1;
+    align-self: center;
+}
+
+.community-child:first-child {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 7%;
+}
+
+.community-child:last-child {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
+}
+
+#community-title {
+    width: auto;
+    margin-bottom: 25px;
+}
+
+#community-description {
+    width: auto;
+    margin-bottom: 25px;
+}
+
+#knight2 {
+    margin: auto;
+    width: auto;
+    height: 671px;
+}

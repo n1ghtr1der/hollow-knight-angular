@@ -1,0 +1,48 @@
+#home-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 747px;
+    max-height: auto;
+    max-width: 100%;
+}
+
+.home-child{
+    width: auto;
+    flex: 1;
+}
+
+.home-child:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    padding-top: 5%;
+    padding-left: 9%;
+    padding-bottom: 7%;
+}
+
+#home-title {
+    width: auto;
+    margin-bottom: 25px;
+}
+
+#home-description {
+    width: auto;
+    margin-bottom: 25px;
+}
+
+.home-child:last-child {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    align-self: center;
+}
+
+#knight1 {
+    width: 333px;
+    height: 577px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+main {
+    background-color: #1c1b1e;
+}
+
 .section-title {
     font-family: 'Poppins';
     font-size: 3.625rem;
