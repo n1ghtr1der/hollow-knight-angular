@@ -18,11 +18,6 @@ export class AccessibilityBarComponent implements OnInit {
     console.log(this.fontSize);
   }
 
-  changeSize() {
-    this.element.style.fontSize = '24px';
-    console.log('teste');
-  }
-
   changeFontSize(type: string) {
     let element = document.querySelector("html")!;
     let size: string | number = getComputedStyle(element).getPropertyValue("font-size");
